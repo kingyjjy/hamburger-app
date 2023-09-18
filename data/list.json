@@ -1,0 +1,104 @@
+[
+    {
+        "foodId" : 1,
+        "foodTitle" : "한우 치즈버거 세트",
+        "foodDescription" : "패티(150g*2EA), 치즈소스, 바베큐소스, 버거번",
+        "foodStar" : ["fill", "fill","fill","half-line","line"],
+        "foodPrice" : 15000,
+        "foodTopping" : [
+            {"img":"top1","toppingName":"패티추가","toppingPrice":1500},
+            {"img":"top2","toppingName":"치즈추가","toppingPrice":500},
+            {"img":"top3","toppingName":"양상추추가","toppingPrice":500},
+            {"img":"top4","toppingName":"버섯추가","toppingPrice":1000},
+            {"img":"top5","toppingName":"토마토추가","toppingPrice":1000}
+        ],
+        "foodImg" : "asset/img/Home/Trending Picks/Burger-img.png",
+        "detailUrl" : "asset/img/Home/Trending Picks/Burger-img.png"       
+        
+    },
+    {
+        "foodId" : 2,
+        "foodTitle" : "불고기 버거 세트",
+        "foodDescription" : "패티(150g), 불고기소스, 바베큐소스, 버거번",
+        "foodStar" : ["fill", "fill","fill","line","line"],
+        "foodPrice" : 11000,
+        "foodTopping" : [
+            {"img":"top1","toppingName":"패티추가","toppingPrice":1500},
+            {"img":"top2","toppingName":"치즈추가","toppingPrice":500},
+            {"img":"top3","toppingName":"양상추추가","toppingPrice":500},
+            {"img":"top4","toppingName":"버섯추가","toppingPrice":1000},
+            {"img":"top5","toppingName":"토마토추가","toppingPrice":1000}
+        ],
+        "foodImg" : "asset/img/Home/Trending Picks/Cheese-and-chicken-grill-burger.png",
+        "detailUrl" : "asset/img/Home/Trending Picks/Cheese-and-chicken-grill-burger.png"       
+        
+    },
+    {
+        "foodId" : 3,
+        "foodTitle" : "더블 한우불고기",
+        "foodDescription" : "패티(150g*2EA), 치즈소스, 불고기소스, 버거번",
+        "foodStar" : ["fill", "fill","fill","fill","half-line"],
+        "foodPrice" : 14500,
+        "foodTopping" : [
+            {"img":"top1","toppingName":"패티추가","toppingPrice":1500},
+            {"img":"top2","toppingName":"치즈추가","toppingPrice":500},
+            {"img":"top3","toppingName":"양상추추가","toppingPrice":500},
+            {"img":"top4","toppingName":"버섯추가","toppingPrice":1000},
+            {"img":"top5","toppingName":"토마토추가","toppingPrice":1000}
+        ],
+        "foodImg" : "asset/img/Home/Trending Picks/Cheese-Bacon-Burger-Img.png",
+        "detailUrl" : "asset/img/Home/Trending Picks/Cheese-Bacon-Burger-Img.png"       
+        
+    },
+    {
+        "foodId" : 4,
+        "foodTitle" : "veg버거 세트",
+        "foodDescription" : "두부패티,야채, 통밀버거번",
+        "foodStar" : ["fill", "fill","half-line","line","line"],
+        "foodPrice" : 9800,
+        "foodTopping" : [
+            {"img":"top1","toppingName":"패티추가","toppingPrice":1500},
+            {"img":"top2","toppingName":"치즈추가","toppingPrice":500},
+            {"img":"top3","toppingName":"양상추추가","toppingPrice":500},
+            {"img":"top4","toppingName":"버섯추가","toppingPrice":1000},
+            {"img":"top5","toppingName":"토마토추가","toppingPrice":1000}
+        ],
+        "foodImg" : "asset/img/Home/Trending Picks/Veg-Burger-Img.png",
+        "detailUrl" : "asset/img/Home/Trending Picks/Veg-Burger-Img.png"       
+        
+    },
+    {
+        "foodId" : 5,
+        "foodTitle" : "JMTG 소세지 핫도그",
+        "foodDescription" : "피클, big소세지, 머스타드, 핫칠리, 어니언",
+        "foodStar" : ["fill", "fill","fill","fill","half-line"],
+        "foodPrice" : 8900,
+        "foodTopping" : [
+            {"img":"top1","toppingName":"패티추가","toppingPrice":1500},
+            {"img":"top2","toppingName":"치즈추가","toppingPrice":500},
+            {"img":"top3","toppingName":"양상추추가","toppingPrice":500},
+            {"img":"top4","toppingName":"버섯추가","toppingPrice":1000},
+            {"img":"top5","toppingName":"토마토추가","toppingPrice":1000}
+        ],
+        "foodImg" : "asset/img/Home/Trending Picks/Sausage-Bun-Img.png",
+        "detailUrl" : "asset/img/Home/Trending Picks/Sausage-Bun-Img.png"       
+        
+    },
+    {
+        "foodId" : 6,
+        "foodTitle" : "XXXL 씬크러스트 치즈피자",
+        "foodDescription" : "Thin 크러스트, 3번 추가한 치즈",
+        "foodStar" : ["fill", "fill","fill","fill","fill"],
+        "foodPrice" : 16900,
+        "foodTopping" : [
+            {"img":"top1","toppingName":"패티추가","toppingPrice":1500},
+            {"img":"top2","toppingName":"치즈추가","toppingPrice":500},
+            {"img":"top3","toppingName":"양상추추가","toppingPrice":500},
+            {"img":"top4","toppingName":"버섯추가","toppingPrice":1000},
+            {"img":"top5","toppingName":"토마토추가","toppingPrice":1000}
+        ],
+        "foodImg" : "asset/img/Home/Trending Picks/Thin-crust-extra-cheese-pizza.png",
+        "detailUrl" : "asset/img/Home/Trending Picks/Thin-crust-extra-cheese-pizza.png"       
+        
+    }
+]

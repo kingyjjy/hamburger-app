@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>menu</title>
+    <link rel="stylesheet" href="asset/css/style.css">
+    <script src="asset/js/jquery-1.12.3.js"></script>
+    <script src="asset/js/slick.min.js"></script>
+    <script src="asset/js/jquery.mobile-1.4.5.js"></script>
+    <script src="asset/js/script.js"></script>
+</head>
+<body>
+    <div data-role="page" id="list-screen">
+         <!-- panel -->
+         <nav data-role="panel" id="mynav" data-position="right" data-display="push" data-theme="a">
+            <a href="myhome.html" class="ui-btn ui-btn-inline" id="nav-home">
+                <i class="ri-home-3-line"></i>
+            </a>
+            <a href="#demo-links" data-rel="close" class="ui-btn ui-btn-inline" id="nav-close">
+                <i class="ri-close-line"></i>
+            </a>
+            <!-- <h3>category</h3> -->
+            <ul data-role="listview" id="nav-list">
+                <li><a href="#">장바구니</a></li>
+                <li><a href="#">위시리스트</a></li>
+                <li><a href="#">로그아웃</a></li>
+            </ul>
+        </nav>
+        <!-- header -->
+        <div data-role="header">
+            <div class="list-logo">
+                <img src="asset/img/Home/burger-logo.png" alt="blogo">
+                <h1>Menu</h1>
+            </div>
+            <a href="#mynav" class="ui-btn-right nav" id="nav-btn"><i class="ri-menu-line"></i></a>
+        </div>
+        <!-- menu list -->
+        <div role="main" class="ui-content">
+            <div class="menu-list">
+                <h3>Hambuger</h3>
+                <!-- loop -->
+                <div class="menu-box">
+                    <div class="row">
+                        <div class="col-5 menu-img">
+                            <img src="asset/img/Home/Trending Picks/Burger-img.png" alt="b">
+                        </div>
+                        <div class="col-7 menu-content">
+                            <h5>트리플 패티와 트리플 치즈를 넣은 트리플 버거</h5>
+                            <span class="d-block new">지금 막 출시한 새로운 신상품!!</span>
+                            <p><i class="ri-star-s-fill"></i><i class="ri-star-s-fill"></i><i class="ri-star-s-fill"></i><i class="ri-star-half-s-line"></i><i class="ri-star-s-line"></i></p>
+                            <h5 class="price">5,400원</h5>
+                            <span>
+                                <button><i class="ri-heart-line"></i></button>
+                                <button><i class="ri-shopping-bag-line"></i></button>
+                            </span>
+                            <a href="#" class="now-order">바로 주문하기</a>
+                        </div>
+                    </div>
+                </div>
+                    <!-- /loop -->
+                    <!-- loop -->
+                <div class="menu-box">
+                    <div class="row">
+                        <div class="col-5 menu-img">
+                            <img src="asset/img/Home/Trending Picks/Cheese-and-chicken-grill-burger.png" alt="b">
+                        </div>
+                        <div class="col-7 menu-content">
+                            <h5>치킨패티의 진짜 맛있는 그릴버거</h5>
+                            
+                            <p><i class="ri-star-s-fill"></i><i class="ri-star-s-fill"></i><i class="ri-star-s-fill"></i><i class="ri-star-half-s-line"></i><i class="ri-star-s-line"></i></p>
+                            <h5 class="price">5,200원</h5>
+                            <span>
+                                <button><i class="ri-heart-line"></i></button>
+                                <button><i class="ri-shopping-bag-line"></i></button>
+                            </span>
+                            <a href="#" class="now-order">바로 주문하기</a>
+                        </div>
+                        
+                    </div>
+                </div><!-- /loop -->    
+                    <!-- loop -->
+                <div class="menu-box">
+                        <div class="row">
+                            <div class="col-5 menu-img">
+                                <img src="asset/img/Home/Trending Picks/Cheese-Bacon-Burger-Img.png" alt="b">
+                            </div>
+                            <div class="col-7 menu-content">
+                                <h5>치즈와 베이컨을 넣은 치즈베이컨 버거</h5>
+                                <span class="d-block new">햄버거중에 가장 잘나가는 상품!!</span>
+                                <p><i class="ri-star-s-fill"></i><i class="ri-star-s-fill"></i><i class="ri-star-s-fill"></i><i class="ri-star-half-s-line"></i><i class="ri-star-s-line"></i></p>
+                                <h5 class="price">6,400원</h5>
+                                <span>
+                                    <button><i class="ri-heart-line"></i></button>
+                                    <button><i class="ri-shopping-bag-line"></i></button>
+                                </span>
+                                <a href="#" class="now-order">바로 주문하기</a>
+                            </div>
+                            
+                        </div>
+                </div><!-- /loop -->                    
+                    <!-- loop -->
+                    <h3>Chicken</h3>
+                <div class="menu-box">
+                    <div class="row">
+                            <div class="col-5 menu-img">
+                                <img src="asset/img/Home/Trending Picks/Chciken-Bucket-Img.png" alt="b">
+                            </div>
+                            <div class="col-7 menu-content">
+                                <h5>reg only, 닭다리 치킨 버켓</h5>
+                                <span class="d-block new">주문 순위 2등!!</span>
+                                <p><i class="ri-star-s-fill"></i><i class="ri-star-s-fill"></i><i class="ri-star-s-fill"></i><i class="ri-star-half-s-line"></i><i class="ri-star-s-line"></i></p>
+                                <h5 class="price">11,500원</h5>
+                                <span>
+                                    <button><i class="ri-heart-line"></i></button>
+                                    <button><i class="ri-shopping-bag-line"></i></button>
+                                </span>
+                                <a href="#" class="now-order">바로 주문하기</a>
+                            </div>
+                    </div>
+                </div><!-- /loop -->
+                    <!-- loop -->
+                    <h3>Pizza</h3>
+                <div class="menu-box">
+                    <div class="row">
+                            <div class="col-5 menu-img">
+                                <img src="asset/img/Home/Trending Picks/Hawaiian-ham-and-pineapple-pizza.png" alt="b">
+                            </div>
+                            <div class="col-7 menu-content">
+                                <h5>파인애플이 들어간 하와이안 피자</h5>
+                                <span class="d-block new">지금 막 출시한 새로운 신상품!!</span>
+                                <p><i class="ri-star-s-fill"></i><i class="ri-star-s-fill"></i><i class="ri-star-s-fill"></i><i class="ri-star-half-s-line"></i><i class="ri-star-s-line"></i></p>
+                                <h5 class="price">14,900원</h5>
+                                <span>
+                                    <button><i class="ri-heart-line"></i></button>
+                                    <button><i class="ri-shopping-bag-line"></i></button>
+                                </span>
+                                <a href="#" class="now-order">바로 주문하기</a>
+                            </div>
+                    </div>
+                </div><!-- /loop -->
+                    <!-- loop -->
+                <div class="menu-box">
+                    <div class="row">
+                            <div class="col-5 menu-img">
+                                <img src="asset/img/Home/Trending Picks/Spicy-sausage-chunks-pizza.png" alt="b">
+                            </div>
+                            <div class="col-7 menu-content">
+                                <h5>엄청 매운 스파이시 소세지 피자</h5>
+                                <span class="d-block new">지금 막 출시한 새로운 신상품!!</span>
+                                <p><i class="ri-star-s-fill"></i><i class="ri-star-s-fill"></i><i class="ri-star-s-fill"></i><i class="ri-star-half-s-line"></i><i class="ri-star-s-line"></i></p>
+                                <h5 class="price">15,400원</h5>
+                                <span>
+                                    <button><i class="ri-heart-line"></i></button>
+                                    <button><i class="ri-shopping-bag-line"></i></button>
+                                </span>
+                                <a href="#" class="now-order">바로 주문하기</a>
+                            </div>
+                    </div>
+                </div><!-- /loop -->
+                    <!-- loop -->
+                <div class="menu-box">
+                        <div class="row">
+                            <div class="col-5 menu-img">
+                                <img src="asset/img/Home/Trending Picks/Thin-crust-extra-cheese-pizza.png" alt="b">
+                            </div>
+                            <div class="col-7 menu-content">
+                                <h5>얇은 크러스트와 치즈 듬뿍! 엑스트라 치즈 피자</h5>
+                                <span class="d-block new">best 주문순위 1등!!</span>
+                                <p><i class="ri-star-s-fill"></i><i class="ri-star-s-fill"></i><i class="ri-star-s-fill"></i><i class="ri-star-half-s-line"></i><i class="ri-star-s-line"></i></p>
+                                <h5 class="price">13,400원</h5>
+                                <span>
+                                    <button><i class="ri-heart-line"></i></button>
+                                    <button><i class="ri-shopping-bag-line"></i></button>
+                                </span>
+                                <a href="#" class="now-order">바로 주문하기</a>
+                            </div>
+                        </div>
+                </div><!-- /loop -->
+                    <!-- loop -->
+                    <h3>Pasta</h3>
+                <div class="menu-box">
+                        <div class="row">
+                            <div class="col-5 menu-img">
+                                <img src="asset/img/Home/Trending Picks/Pesto-pasta-dry-kebab-barbacoa.png" alt="b">
+                            </div>
+                            <div class="col-7 menu-content">
+                                <h5>끝내주게 맛있는 파스타</h5>
+                                <span class="d-block new">잘 나가는 상품!!</span>
+                                <p><i class="ri-star-s-fill"></i><i class="ri-star-s-fill"></i><i class="ri-star-s-fill"></i><i class="ri-star-half-s-line"></i><i class="ri-star-s-line"></i></p>
+                                <h5 class="price">9,400원</h5>
+                                <span>
+                                    <button><i class="ri-heart-line"></i></button>
+                                    <button><i class="ri-shopping-bag-line"></i></button>
+                                </span>
+                                <a href="#" class="now-order">바로 주문하기</a>
+                            </div>
+                        </div>
+                </div><!-- /loop -->
+                    <!-- loop -->
+                <div class="menu-box">
+                        <div class="row">
+                            <div class="col-5 menu-img">
+                                <img src="asset/img/Home/Trending Picks/Shin-ramyun-bowl-Italian-vintage-style.png" alt="b">
+                            </div>
+                            <div class="col-7 menu-content">
+                                <h5>세계최조! 한국인 입맛저격! 국물파스타</h5>
+                                <span class="d-block new">지금 막 출시한 새로운 신상품!!</span>
+                                <p><i class="ri-star-s-fill"></i><i class="ri-star-s-fill"></i><i class="ri-star-s-fill"></i><i class="ri-star-half-s-line"></i><i class="ri-star-s-line"></i></p>
+                                <h5 class="price">11,400원</h5>
+                                <span>
+                                    <button><i class="ri-heart-line"></i></button>
+                                    <button><i class="ri-shopping-bag-line"></i></button>
+                                </span>
+                                <a href="#" class="now-order">바로 주문하기</a>
+                            </div>
+                        </div>
+                </div><!-- /loop -->
+                    <!-- loop -->
+                    <h3>Drink</h3>
+                <div class="menu-box">
+                        <div class="row">
+                            <div class="col-5 menu-img">
+                                <img src="asset/img/Home/Trending Picks/Orange-Juice-Img.png" alt="b">
+                            </div>
+                            <div class="col-7 menu-content">
+                                <h5>100% 오렌지 과즙 오렌지주스</h5>
+                                <p><i class="ri-star-s-fill"></i><i class="ri-star-s-fill"></i><i class="ri-star-s-fill"></i><i class="ri-star-half-s-line"></i><i class="ri-star-s-line"></i></p>
+                                <h5 class="price">3,400원</h5>
+                                <span>
+                                    <button><i class="ri-heart-line"></i></button>
+                                    <button><i class="ri-shopping-bag-line"></i></button>
+                                </span>
+                                <a href="#" class="now-order">바로 주문하기</a>
+                            </div>
+                        </div>
+                </div><!-- /loop -->
+            </div>
+        </div>
+    </div>
+</body>
+</html>

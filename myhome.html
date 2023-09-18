@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>myhome</title>
+    <link rel="stylesheet" href="asset/css/style.css">
+    <script src="asset/js/jquery-1.12.3.js"></script>
+    <script src="asset/js/slick.min.js"></script>
+    <script src="asset/js/jquery.mobile-1.4.5.js"></script>
+    <script src="asset/js/script.js"></script>
+</head>
+<body>
+    <div data-role="page" id="home-screen">
+        <!-- panel -->
+        <nav data-role="panel" id="mynav" data-position="right" data-display="push" data-theme="a">
+            <a href="#demo-links" data-rel="close" class="ui-btn ui-btn-inline" id="nav-close">
+                <i class="ri-close-line"></i>
+            </a>
+            <!-- <h3>category</h3> -->
+            <ul data-role="listview" id="nav-list">
+                <li><a href="#">account</a></li>
+                <li><a href="#">favorite</a></li>
+                <li><a href="#">faq</a></li>
+                <li><a href="#">회원혜택</a></li>
+                <li><a href="#">장바구니</a></li>
+                <li><a href="#">구매정보</a></li>
+                <li><a href="#">로그아웃</a></li>
+            </ul>
+        </nav>
+        <!-- header -->
+        <div data-role="header">
+            <div class="logobox">
+                <img src="asset/img/Home/burger-logo.png" alt="logo">
+                <h1>My Buger</h1>
+            </div>
+            <a href="#mynav" class="ui-btn-right nav" id="nav-btn"><i class="ri-menu-line"></i></a>
+        </div>
+        <!-- main -->
+        <div role="main" class="ui-content">
+            <form>
+                <input type="search" name="search" id="search" class="custom-input" placeholder="검색..."/>
+            </form>
+            <div class="slider">
+                <div><img src="asset/img/Home/banner01.jpg" alt="banner1"></div>
+                <div><img src="asset/img/Home/banner02.jpg" alt="banner2"></div>
+                <div><img src="asset/img/Home/banner03.jpg" alt="banner3"></div>
+            </div>
+            <div class="order-box">
+                <div class="order-menu">
+                    <a href="mylist.html" class="menu-btn ui-btn">
+                        <h3>Menu</h3>
+                    </a>
+                </div>
+            </div>
+            <div class="how container">
+                <div class="row">
+                    <div class="col-6 order-del">
+                        <a href="#">
+                            <h3>Delivery</h3>
+                        </a>
+                    </div>
+                    <div class="col-6 order-pic">
+                        <a href="#">
+                            <h3>PickUp</h3>
+                        </a>
+                    </div>
+                </div>
+                <div class="order-call">
+                    <a href="#" class="call-a ui-btn">
+                        <h3><i class="ri-phone-line"></i>전화주문</h3>
+                    </a> 
+                </div>
+            </div>
+        </div>
+        <footer data-role="footer" data-position="fixed">
+            <div data-role="navbar">
+                <ul>
+                    <li>
+                        <a href="#" class="ui-btn-active"><i class="ri-user-settings-fill"></i><br>members</a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="ri-heart-fill"></i><br>wish list</a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="ri-shopping-cart-fill"></i><br>cart</a>
+                    </li>
+                </ul>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>

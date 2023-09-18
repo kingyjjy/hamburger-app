@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home</title>
+    <link rel="stylesheet" href="asset/css/style.css">
+    <script src="asset/js/jquery-1.12.3.js"></script>
+    <script src="asset/js/slick.min.js"></script>
+    <script src="asset/js/jquery.mobile-1.4.5.js"></script>
+    <script src="asset/js/script.js"></script>
+    <script src="asset/js/home.js"></script>
+</head>
+<body>
+    <div data-role="page" id="home-screen">
+        <!-- panel -->
+        <nav data-role="panel" id="mynav" data-position="right" data-display="push" data-theme="a">
+            <a href="#demo-links" data-rel="close" class="ui-btn ui-btn-inline" id="nav-close">
+                <i class="ri-close-line"></i>
+            </a>
+            <!-- <h3>category</h3> -->
+            <ul data-role="listview" id="nav-list">
+                <li><a href="#">account</a></li>
+                <li><a href="#">favorite</a></li>
+                <li><a href="#">faq</a></li>
+                <li><a href="#">회원혜택</a></li>
+                <li><a href="#">장바구니</a></li>
+                <li><a href="#">구매정보</a></li>
+                <li><a href="#">로그아웃</a></li>
+            </ul>
+        </nav>
+        <!-- header -->
+        <div data-role="header">
+            <div class="logobox">
+                <img src="asset/img/logo.png" alt="logo">
+                <h1>Hambuger Town</h1>
+            </div>
+            <a href="#mynav" class="ui-btn-right nav" id="nav-btn"><i class="ri-menu-line"></i></a>
+        </div>
+        <!-- main -->
+        <div role="main" class="ui-content">
+            <form>
+                <input type="search" name="search" id="search" class="custom-input" placeholder="search..."/>
+            </form>
+            <div class="slider">
+                <div><img src="asset/img/Home/banner01.jpg" alt="banner1"></div>
+                <div><img src="asset/img/Home/banner02.jpg" alt="banner2"></div>
+                <div><img src="asset/img/Home/banner03.jpg" alt="banner3"></div>
+            </div>
+        <!-- list -->
+        <div class="container mt-5">
+            <h1>LIST</h1>
+            <!-- loop -->
+            <div class="list">
+                <!-- <a href="#" class="row food-card">
+                    <div class="col-4 my-auto">
+                        <img src="asset/img/Home/Trending Picks/Burger-img.png" class="img-fluid" alt="w">
+                    </div>
+                    <div class="col-7">
+                        <h1 class="food-title">
+                            칠리새우를 넣은 진짜 맛좋은 더블버거
+                        </h1>
+                        <p class="food-description">지금 막 출시한 새로운 신상품</p>
+                        <div class="food-ratings">
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-half-line"></i>
+                            <i class="ri-star-line"></i>
+                        </div>
+                        <p class="food-price">1,5000원</p>
+                    </div>
+                    <div class="col-1">
+                        <p class="food-wish">
+                            <i class="ri-heart-fill"></i>
+                        </p>
+                    </div>
+                </a>
+            
+                <a href="#" class="row food-card">
+                    <div class="col-4 my-auto">
+                        <img src="asset/img/Home/Trending Picks/Burger-img.png" class="img-fluid" alt="w">
+                    </div>
+                    <div class="col-7">
+                        <h1 class="food-title">
+                            칠리새우를 넣은 진짜 맛좋은 더블버거
+                        </h1>
+                        <p class="food-description">지금 막 출시한 새로운 신상품</p>
+                        <div class="food-ratings">
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-half-line"></i>
+                            <i class="ri-star-line"></i>
+                        </div>
+                        <p class="food-price">8,900원</p>
+                    </div>
+                    <div class="col-1">
+                        <p class="food-wish">
+                            <i class="ri-heart-fill"></i>
+                        </p>
+                    </div>
+                </a> -->
+                <!-- /loop -->
+            </div>
+        </div>
+        <!-- /list -->
+        
+        </div>
+        <footer data-role="footer" data-position="fixed" >
+            <div data-role="navbar">
+                <ul>
+                    <li>
+                        <a href="#" id="logout" class="ui-btn-active"><i class="ri-user-settings-fill"></i><br>logout</a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="ri-heart-fill"></i><br>wish list</a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="ri-shopping-cart-fill"></i><br>cart</a>
+                    </li>
+                </ul>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>

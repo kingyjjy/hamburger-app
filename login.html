@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link rel="stylesheet" href="asset/css/style.css">
+    <script src="asset/js/jquery-1.12.3.js"></script>
+    <script src="asset/js/jquery.mobile-1.4.5.js"></script>
+    <script src="asset/js/login.js"></script>
+</head>
+<body>
+    <div data-role="page" id="login-screen">
+        <div role="main" class="ui-content">
+            <!-- login form -->
+            <img src="asset/img/logo.png" class="logo" alt="1">
+            <h2 id="sign-in-text" style="color: rgb(252, 82, 52);">Sign In</h2>
+            <form>
+                <input type="text" id="inputUsername" data-wrapper-class="custom-input mx-auto d-block" placeholder="id"/>
+                <div class="mt-3"></div>
+                <input type="password" id="inputPassword" data-wrapper-class="custom-input mx-auto d-block" placeholder="password"/>
+                <a href="#" class="btn login-btn mx-auto d-block"  onclick="login()"
+                            style="background-color: rgb(252, 82, 52);">Login</a>
+                <a href="register.html" class="btn register-btn mx-auto d-block">Sign Up</a>
+            </form> 
+
+            <!-- vaildation modal -->
+            <div data-role="popup" id="popupDialog" data-overlay-theme="a"
+                data-theme="a" data-dismissible="false" style="max-width: 400px;">
+                <div data-role="header" data-theme="a">
+                    <h1>!!Error!!</h1>
+                </div>
+                <div role = "main" class="ui-content">
+                    <p>ERROR</p>
+                    <p>Please check your ID or PASSWORD</p>
+                    <div class="text-right">
+                        <a href="#" class="ui-btn ui-corner-aa ui-shadow ui-btn-inline ui-btn-a" data-rel="back">close</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
